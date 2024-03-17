@@ -1,0 +1,71 @@
+body {
+    font-family: "Monospace", sans-serif;  
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+#headeris {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    flex-direction: row;
+    max-height: 51px;
+}
+
+#headerLogo {
+    padding: 15px 0 15px 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#headeraLinki {
+    display: flex;
+    color: white;
+    padding-right: 100px;
+    gap: 35px;
+}
+#headeraLinki li a{
+    color: white;
+}
+
+/* ///////////////////////////////////// */
+
+#topins {
+    display: flex;
+    background-color: #1f2937;
+}
+
+#topaKreisais {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 100px;
+
+}
+
+#topaVirsraksts {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#topaApraksts {
+    color: rgba(255, 255, 255, 0.822);
+}
+
+#topaLabais img {
+    width: 450px;
+    height: 300px;
+}
+
