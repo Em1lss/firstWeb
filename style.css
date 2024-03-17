@@ -14,29 +14,34 @@ li {
     list-style: none;
 }
 
+ul {
+    margin: 0;
+}
 #headeris {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
     flex-direction: row;
-    max-height: 51px;
+    height: 10vh;
+    font-size: 1.8vh;
+    line-height: 10vh;
+    padding: 0 10vw;
 }
 
 #headerLogo {
-    padding: 15px 0 15px 100px;
     color: white;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 3vh;
 }
 
 #headeraLinki {
     display: flex;
     color: white;
-    padding-right: 100px;
-    gap: 35px;
+    gap: 5vw;
 }
 #headeraLinki li a{
     color: white;
+    line-height: 10vh;
 }
 
 /* ///////////////////////////////////// */
@@ -44,28 +49,84 @@ li {
 #topins {
     display: flex;
     background-color: #1f2937;
+    padding: 10vh 10vw;
+    justify-content: space-between;
 }
 
 #topaKreisais {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding-left: 100px;
-
+    gap: 2vh;
+    max-width: 45%;
 }
 
 #topaVirsraksts {
     color: white;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 7vh;
 }
 
 #topaApraksts {
     color: rgba(255, 255, 255, 0.822);
 }
 
-#topaLabais img {
-    width: 450px;
-    height: 300px;
+#topaSignUp {
+    color: white;
+    background-color: rgb(50, 50, 241);
+    border-radius: 5px;
+    padding: 1.5vh 2vw;
+    width: fit-content;
 }
+#topaLabais {
+    max-width: 45%;
+}
+#topaLabais img {
+    width: 30vw;
+    height: 30vh;
+}
+
+/* ///////////////////////////////////// */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 15vw;
+    gap: 10vh;
+    align-items: center;
+}
+
+#mainBildes {
+    display: flex;
+}
+
+.hz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.hzTeksts {
+    text-align: center;
+    color: #807d7d;
+}
+
+#bilzuHeader {
+    color: black;
+    font-weight: bold;
+    font-size: 6.5vh;
+}
+
+#mainBildes img {
+    width: 14.5vw;
+    height: 18vh;
+    border-color: #4343db;
+    border-radius: 10px;
+    border-style: solid;
+}
+/* ///////////////////////////////////// */
+
+
+
+
 
